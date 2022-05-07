@@ -16,7 +16,7 @@ function newItem(source, positionLeft, positionBottom){
     item.style.left = positionLeft
     item.style.bottom = positionBottom
     document.body.append(item)
-    item.addEventListener('click', function(){
+    item.addEventListener('dblclick', function(){
     item.remove()
 })
 }
